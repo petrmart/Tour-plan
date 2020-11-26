@@ -50,6 +50,8 @@
     flex-basis: auto
 
   .hotel
+    padding-top: 4px
+    padding-bottom: 23px
     &-name
       flex-basis: 100%
     &-wrapper
@@ -72,9 +74,15 @@
 
 @media (max-width: 320px)
   .container
-    height: 70px
+    max-width: 280px
+    margin: 0 20px
   .navbar
+    height: 70px
     &-bottom
       display: none
     &-top
-      padding: 28px 20px
+      padding: 28px 0px
+  .breadcrumb
+    max-height: 50px
+  .stars
+    padding-right: 17px

@@ -661,6 +661,10 @@ img {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
   }
+  .hotel {
+    padding-top: 4px;
+    padding-bottom: 23px;
+  }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -696,13 +700,23 @@ img {
 
 @media (max-width: 320px) {
   .container {
+    max-width: 280px;
+    margin: 0 20px;
+  }
+  .navbar {
     height: 70px;
   }
   .navbar-bottom {
     display: none;
   }
   .navbar-top {
-    padding: 28px 20px;
+    padding: 28px 0px;
+  }
+  .breadcrumb {
+    max-height: 50px;
+  }
+  .stars {
+    padding-right: 17px;
   }
 }
 /*# sourceMappingURL=style.css.map */
