@@ -550,4 +550,16 @@ img {
     width: 99px;
   }
 }
+
+@media (max-width: 320px) {
+  .container {
+    height: 70px;
+  }
+  .navbar-bottom {
+    display: none;
+  }
+  .navbar-top {
+    padding: 28px 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
