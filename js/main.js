@@ -8,4 +8,9 @@ var mySwiper = new Swiper('.swiper-container', {
     prevEl: '.slider-button-prev',
   },
   effect: "flip",
+  
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 })

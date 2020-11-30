@@ -633,6 +633,12 @@ img {
   background-color: transparent;
 }
 
+.slider-button:focus {
+  outline-style: none;
+  outline-width: 0px !important;
+  outline-color: none !important;
+}
+
 .slider-button--next {
   right: 18px;
   background-image: url(../img/arrow-next.svg);
