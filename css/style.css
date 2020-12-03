@@ -1101,5 +1101,13 @@ img {
   .stars {
     padding-right: 17px;
   }
+  .newsletter-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .newsletter-title__strong {
+    font-size: 30px;
+    line-height: 38px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
