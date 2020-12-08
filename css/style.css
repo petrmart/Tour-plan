@@ -1344,14 +1344,36 @@ img {
   color: #E0E0E0;
 }
 
-.footer__bottom {
+.footer-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 102px 0 46px 0;
+}
+
+.footer-bottom__wrapper {
+  margin-right: 277px;
+  margin-left: auto;
+}
+
+.footer-bottom__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
   color: #BDBDBD;
+}
+
+.footer-bottom__payment {
+  width: 136px;
+  height: 22px;
 }
 
 @media (max-width: 1200px) {
