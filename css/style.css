@@ -1537,6 +1537,9 @@ img {
     display: -ms-flexbox;
     display: flex;
   }
+  .navbar .search__input {
+    width: 243px;
+  }
   .navbar__user {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
