@@ -391,6 +391,10 @@ img {
   cursor: pointer;
 }
 
+.invalid {
+  color: #EC1F46;
+}
+
 .navbar {
   background-color: #ffffff;
 }
@@ -1337,6 +1341,10 @@ img {
 }
 
 .footer__input {
+  width: 100%;
+}
+
+.footer__input-group {
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
@@ -1453,14 +1461,14 @@ img {
 
 .modal__input {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .modal-message {
   width: 100%;
   min-height: 123px;
   resize: none;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .modal__button {
@@ -1476,6 +1484,7 @@ img {
   color: #ffffff;
   background-color: #EC1F46;
   cursor: pointer;
+  margin-top: 15px;
 }
 
 .modal__info {
@@ -1518,7 +1527,7 @@ img {
     width: 230px;
     height: 230px;
   }
-  .footer__input {
+  .footer__input-group {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
@@ -1593,7 +1602,7 @@ img {
         grid-template-columns: repeat(6, 1fr);
     grid-row-gap: 39px;
   }
-  .footer__input {
+  .footer__input-group {
     -ms-flex-preferred-size: 49%;
         flex-basis: 49%;
   }
@@ -1836,7 +1845,7 @@ img {
   .footer-wrapper {
     margin-bottom: 63px;
   }
-  .footer__input {
+  .footer__input-group {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
